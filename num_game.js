@@ -11,7 +11,7 @@ button.addEventListener("click", () => {
 var counter = 0;
 
 const checkNumber = () => { 
-    const rand = Math.floor(Math.random() * 10);
+    const rand = Math.floor(Math.random() * 10) + 1;
     console.log(rand);
     if(num.value < 1 || num.value > 10){
         error.innerHTML = "num be 1 to 10";
