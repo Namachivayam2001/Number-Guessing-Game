@@ -15,7 +15,7 @@ const checkNumber = () => {
     console.log(rand);
     if(num.value < 1 || num.value > 10){
         error.innerHTML = "num be 1 to 10";
-        error.style = "color: red; margin-left: -90px";
+        error.style = "color: red; margin-left: -100px";
         score.style = "margin-top: 2px";
         count.innerHTML = counter;
     }else{
@@ -25,8 +25,8 @@ const checkNumber = () => {
         }else{
             counter--;
         }
-        error.innerHTML = "rand: " + rand;
-        error.style = "color: green; margin-left: -108px; font-style: italic";
+        error.innerHTML = "rand no: " + rand;
+        error.style = "color: green; margin-left: -130px; font-style: italic";
         score.style = "margin-top: 2px";
         count.innerHTML = counter;
     }
